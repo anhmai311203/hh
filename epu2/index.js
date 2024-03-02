@@ -1,19 +1,24 @@
 document.addEventListener("DOMContentLoaded", function() {
-    const emailInput = document.querySelector('.email');
-    const passwordInput = document.querySelector('.password');
-    const button = document.querySelector('.btn');
+    const emailInput = document.getElementById('email');
+    const passwordInput = document.getElementById('password');
+    const loginButton = document.getElementById('loginButton');
 
-    button.addEventListener('click', function(event) {
-        event.preventDefault(); 
-
-       
-        const emailValue = emailInput.value;
-        const passwordValue = passwordInput.value;
+    loginButton.addEventListener('click', function() {
+        
+        const emailValue = emailInput.value.trim();
+        const passwordValue = passwordInput.value.trim();
 
         
-        console.log('Email:', emailValue);
-        console.log('Password:', passwordValue);
+        if (emailValue === '') {
+            alert('Vui lòng nhập địa chỉ email.');
+            return;
+        }
 
-        
+        if (passwordValue === '') {
+            alert('Vui lòng nhập mật khẩu.');
+            return;
+        }
+
+        alert('Đăng nhập thành công!');
     });
 });

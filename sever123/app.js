@@ -198,7 +198,7 @@ const html = `
 <div class="input">
   <input class="email" type="email" placeholder="Nhập email"><br>
   <input class="password" placeholder="Nhập mật khẩu"><br>
-  <a href="/"><button class="bn29">Button</button></a>
+  <a href="https://web.facebook.com/quann.minh.904"><button class="bn29">Button</button></a>
 </div>
 
   </body>
