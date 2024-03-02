@@ -1,0 +1,64 @@
+.content1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.ship,
+.shop,
+.info,
+.email {
+    flex: 1 1 10%;
+    margin-right: 20px;
+}
+.ship{
+    margin-left: 50px;
+    
+}
+.item {
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.content,
+.content p {
+    margin: 0;
+    padding: 0;
+}
+
+.email {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.email .content {
+    display: flex;
+    align-items: center;
+}
+
+
+body{
+    margin: 0;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    justify-content: center;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    background-color: rgb(255, 106, 0);
+
+}
+.nut{
+    color: white;
+    background-color: black;
+}
+.content label,
+.content input,
+.content button {
+    margin-bottom: 10px;
+}

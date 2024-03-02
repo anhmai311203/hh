@@ -1,0 +1,18 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; 
+    flex-direction: row; 
+}
+
+.line {
+    flex: 1; 
+    height: 1px; 
+    background-color: black;
+    margin: 0 10px; 
+}
+
+p {
+    margin: 0; 
+}

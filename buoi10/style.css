@@ -1,0 +1,39 @@
+.navbar-expand-lg {
+    background-color: #000000; /* Màu đen */
+}
+.navbar-custom .navbar-nav .nav-link {
+    color: #fff; /* Màu chữ trắng cho các liên kết */
+}
+
+.menu { 
+    color: #000000;
+    padding: 20px; /* Khoảng cách giữa nội dung và mép của menu */
+    height: 50vh;
+}
+.dong-khung {
+    background-color: #ffffff; 
+    padding: 20px;
+    border: 1px solid #d7cece; /* Viền xung quanh phần nội dung */
+    margin: 10px;
+}
+.hinh-anh{
+    margin: 10px;
+    border: 1px solid #000000;
+}
+.btn-success{
+    background-color: #43e437;
+}
+h4 {
+    color: red;
+    text-align: center;
+}
+.form{
+    padding: 10px;
+}
+ul{
+    list-style-type: none;
+}
+.container{
+    background-color: #d7cece;
+    
+}

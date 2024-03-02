@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="baitap2.css">
+    <script src='main.js'></script>
+    <style>
+        table th,td{
+            border: 1px solid black;
+        }
+        table {
+            border-collapse: collapse;
+}
+    </style>
+</head>
+<body>
+    <p>danh sách sinh viên</p>
+
+    <table  >
+        <tr>
+            <th> <b>Họ Tên</b></th>
+            <th><b>Ngày Sinh</b></th>
+            <th><b>Giới tính</b></th>
+           </tr>
+                <tr>
+                    <td>Trần Anh Đức </td>
+                    <td>03/08/1993</td>
+                    <td>Nam</td>
+                </tr>
+                <tr>
+                    <td>Kiều Thị Thu Hằng</td>
+                    <td>04/09/1991</td>
+                    <td>Nữ</td>   
+                </tr>
+                <tr>
+                    <td>Vương Thị Lê Na</td>
+                    <td>06/10/1991</td>
+                    <td>Nữ</td>
+                </tr>
+    </table>
+    <p>Danh sách sinh viên v2</p>
+    </table>
+        <tr>
+            <th><b>STT</b></th>
+            <th><b>Họ tên</b></th>
+            
+                
+                    
+                    <th rowspan="2"><b>Giới tính</b></th> 
+                
+                    
+                    <th><b>Chức vụ</b></th><br>
+
+        
+            
+                <tr>
+                    <td> </td>
+                    <td> </td>
+                    <td colspan="2"><b>Nam</b></td> 
+                    <td><b>Nữ</b></td>
+                </tr>
+                
+             
+    </table>
+    <table>
+        <caption>Danh sách sinh viên v2</caption>
+        <thead>
+            <tr>
+                <th><b>STT</b></th>
+                <th><b>Họ tên</b></th>
+                <th><b>Giới tính</b></th>
+                <th><b>Chức vụ</b></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Trần Đức Anh</td>
+                <td>
+                    <div>Nam</div>
+                    <div>Nữ</div>
+                </td>
+                <td>Lớp trưởng</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Nguyễn Thị Mai</td>
+                <td>
+                    <div>Nữ</div>
+                </td>
+                <td>Phó lớp</td>
+            </tr>
+            <!-- Các sinh viên khác có thể được thêm vào đây -->
+        </tbody>
+    </table>
+    <table>
+        <caption>Danh sách sinh viên v2</caption>
+        <thead>
+            <tr>
+                <th><b>STT</b></th>
+                <th><b>Họ tên</b></th>
+                <th colspan="2"><b>Giới tính</b></th>
+                <th><b>Chức vụ</b></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Trần Đức Anh</td>
+                <td><span>Nam</span></td>
+                <td><span>Nữ</span></td>
+                <td>Lớp trưởng</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Nguyễn Thị Mai</td>
+                <td colspan="2"><span>Nữ</span></td>
+                <td>Phó lớp</td>
+            </tr>
+            <!-- Các sinh viên khác có thể được thêm vào đây -->
+        </tbody>
+    </table>
+    
+    
+   
+</body>
+</html>

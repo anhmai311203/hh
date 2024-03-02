@@ -1,0 +1,18 @@
+h1{
+    color: blue;
+}
+h1#maudo{
+    color: red;
+}
+
+h2{
+    color: aqua;
+    font-style: italic;
+    font-size: 50px;
+}
+h3{
+    color: bisque;
+}
+h1.mauvang{
+    
+}

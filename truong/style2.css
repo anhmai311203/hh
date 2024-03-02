@@ -1,0 +1,26 @@
+.bo{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+   padding-left: 150px;
+   padding-right: 150px;
+    background-color: rgb(252, 252, 248);
+}
+.icon{
+    border-radius: 50%;
+}
+.email{
+    padding-right: 100px ;
+    padding-bottom: 30px ;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+button{
+    border-radius: 5px;
+   
+    background-color: rgb(65, 65, 234);
+
+}
+button:hover{
+    background-color: blue;
+}

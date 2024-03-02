@@ -1,0 +1,125 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chữa đề</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+        <!-- Link to Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <script src="scipt.js"></script>
+</head>
+<body>
+<div class="img"><img src="hinh-nen-thien-nhien-3d-001.jpg" alt=""></div>
+    <!-- nav bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark navbar-custom">
+        <div class="container">
+            <a class="navbar-brand" href="#" id="">
+                <i class="fas fa-home"></i> 
+                Logo
+            </a>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fas fa-home"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fas fa-info-circle"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fas fa-envelope"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fa fa-fire"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- menu -->
+    
+    <div class="container">
+        <div class="row">
+            <!-- ben trai -->
+            <div class="col-md-3 menu">
+                <h2>Menu</h2>
+                <ul>
+                    <li><a href="#">Link 1</a></li>
+                    <li><a href="#">Link 2</a></li>
+                    <li><a href="#">Link 3</a></li>
+                    <li><a href="#">Link 4</a></li>
+                    <li><a href="#">Link 5</a></li>
+                </ul>
+                
+            </div>
+    
+            <!-- trung tam -->
+            <div class="col-md-6">
+                <div class="dong-khung">
+                    <h2>Nội dung chính</h2>
+                    <p>Đây là phần nội dung chính của trang web.</p>
+                    <button type="button" class="btn btn-success">
+                        <i class="fas fa-thumbs-up"></i> Like
+                    </button>
+                    <button type="button" class="btn btn-success">
+                        <i class="fas fa-comment"></i> Comment
+                    </button>
+                </div>
+                <div class="dong-khung">
+                    <h2>Nội dung chính</h2>
+                    <p>Đây là phần nội dung chính của trang web.</p>
+                    <button type="button" class="btn btn-success">
+                        <i class="fas fa-thumbs-up"></i> Like
+                    </button>
+                    <button type="button" class="btn btn-success">
+                        <i class="fas fa-comment"></i> Comment
+                    </button>
+                    
+                </div>
+                <div class="form dong-khung">
+                    <h4> Subscribe to the newsletter</h4>
+                    <form id="registrationForm" onsubmit="return kiemtra()">
+                        <div class="mb-1">
+                            <label for="name" class="form-label">Tên:</label>
+                            <input type="text" class="form-control" id="name" name="name">
+                        </div>
+                    
+                        <div class="mb-1">
+                            <label for="email" class="form-label">Email:</label>
+                            <input type="email" class="form-control" id="email" name="email">
+                        </div>
+                    
+                        <button type="submit" class="btn btn-primary">Đăng ký</button>
+                    
+                        <div class="mt-1">
+                            <p id="baoloi" class="text-danger"></p>
+                        </div>
+                        
+                    </form>
+                </div>   
+            </div>
+
+             <!-- ben phai  -->
+            <div class="col-md-3">
+                <div class="hinh-anh">
+                    <img src="anh.jpg" alt="Ảnh" class="img-fluid">
+                </div>
+                <div class="hinh-anh">
+                    <img src="anh.jpg" alt="Ảnh" class="img-fluid">
+                </div>
+                <div class="hinh-anh">
+                    <img src="anh.jpg" alt="Ảnh" class="img-fluid">
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+    
+    
+</body>
+</html>

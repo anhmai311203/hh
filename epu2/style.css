@@ -1,0 +1,130 @@
+.container {
+    display: flex;
+    justify-content: center; /* Căn giữa theo chiều ngang */
+    
+    
+}
+
+
+.text-box {
+   
+    padding: 5px 100px; 
+    display: inline-block;
+    text-align: center;
+    border-radius: 5px;
+    background-color:purple;
+    width: auto; 
+    font-size: 20px;
+}
+.hh{
+    font-size: 20px;
+}
+.hihi{
+    font-size: 18px;
+    color: gray;
+}
+p {
+    text-align: center;
+    border-radius: 5px;
+    font-size: 30px;
+    text-align: center;
+    
+}
+.mau{
+    color: aqua;
+}
+.button-list {
+    list-style-type: none;
+    text-align: center; 
+}
+
+.button-list li {
+    display: inline; 
+    margin: 0 5px; 
+}
+
+.button-list li button {
+    padding: 10px 30px;
+    background-color: #ddd;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s background-color; 
+    background-color:black;
+    color: white;
+}
+
+.button-list li button:hover {
+    background-color:yellow; 
+}
+.bn29 {
+    border: none;
+    padding: 0.8em 2.5em;
+    outline: none;
+    color: white;
+    font-style: 1.2em;
+    position: relative;
+    z-index: 1;
+    cursor: pointer;
+    background: none;
+    text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.45);
+  }
+  
+  .bn29:before,
+  .bn29:after {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-radius: 10em;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    width: 105%;
+    height: 105%;
+    content: "";
+    z-index: -2;
+    background-size: 400% 400%;
+    background: linear-gradient(
+      60deg,
+      #f79533,
+      #f37055,
+      #ef4e7b,
+      #a166ab,
+      #5073b8,
+      #1098ad,
+      #07b39b,
+      #6fba82
+    );
+  }
+  
+  .bn29:before {
+    -webkit-filter: blur(7px);
+    filter: blur(7px);
+    -webkit-transition: all 0.25s ease;
+    transition: all 0.25s ease;
+    -webkit-animation: pulse 10s infinite ease;
+    animation: pulse 10s infinite ease;
+  }
+  
+  .bn29:after {
+    -webkit-filter: blur(0.3px);
+    filter: blur(0.3px);
+  }
+  
+  .bn29:hover:before {
+    width: 115%;
+    height: 115%;
+  }
+  .input{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .email{
+    padding-right: 100px;
+    margin-bottom: 20px;
+    padding-top: 20px;
+  }
+  .password{
+    margin-bottom: 20px;
+    padding-right: 100px;
+    padding-top: 20px;
+  }

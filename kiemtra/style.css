@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bo{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin: 0 auto;
+}
+.fa-shield-check{
+    font-size: 100px;
+    color: blue;
+}
+.container{
+    width: 50%;
+}
+.contact{
+    text-align: center;
+}
+.icon{
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box{   
+    border-top: 200px;
+    gap: 20px;
+    /* width: 200px; */
+    display: flex;
+    align-items: center;
+    border: 1px solid #000;
+    width: 40%;
+    margin-bottom: 10px;
+    
+}
+.input{
+    border: 1px solid #000;
+}
+.input_item{
+    border-bottom: 1px solid #000;
+}
+.input_box{
+    border: none;
+    font-size: 16px;
+    padding: 10px;
+}

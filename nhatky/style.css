@@ -1,0 +1,17 @@
+.navbar-expand-lg{
+    background-color: bisque;
+}
+.menu{
+    color: #000000;
+    padding: 20px; /* Khoảng cách giữa nội dung và mép của menu */
+    height: 50vh;
+}
+body{
+    background-color:whitesmoke;
+}
+.dong-khung {
+    background-color: #ffffff; 
+    padding: 20px;
+    border: 1px solid #d7cece; /* Viền xung quanh phần nội dung */
+    margin: 10px;
+}

@@ -1,0 +1,31 @@
+.container{
+    gap: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 500px;
+    height: 500px;
+   
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+body{
+    background-image: url(meo.jpg);
+}
+p{
+    font-size: 20px;
+}
+.number{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.box1{
+    text-align: center;
+}
+.box2{
+    text-align: center;
+}
+.box3{
+    text-align: center;
+}

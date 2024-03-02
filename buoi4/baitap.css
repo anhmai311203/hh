@@ -1,0 +1,55 @@
+h1{
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+    color: blue;
+}
+h2.hehe{
+    text-decoration: underline;
+}
+span.mon{
+    font-weight: bold;
+    text-decoration:underline;
+}
+span.nuoc{
+    font-style: italic;
+}
+span.h20{
+    color: red;
+}
+span.axit{
+    font-style: italic;
+}
+span.h2so4{
+    color:red;
+}
+span.mon2{
+    font-weight: bolder;
+    text-decoration: underline;
+}
+span.pt{
+    font-style: italic;
+}
+span.phuongtrinh{
+    color: red;
+}
+span.mon3{
+    font-weight: bolder;
+    text-decoration: underline;
+}
+span.for{
+    font-style: italic;
+}
+p.code{
+   
+   border: 10px;
+   color: aqua;
+}
+p.tong{
+    text-indent: 50px;
+    
+}
+p.next{
+    margin-right: 400px;
+}
+

@@ -1,0 +1,13 @@
+.box{
+    display: flex;
+    gap: 10px;
+    border: 1px;
+    border-radius: 5px;
+    
+   
+}
+p{
+    background-color: rgb(103, 103, 235);
+    padding: 5px 10px; 
+    margin: 5px
+}
